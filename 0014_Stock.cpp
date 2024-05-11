@@ -39,3 +39,6 @@ void pop() {
 		cout << "Stack is empty." << endl;
 	}
 	cout << "Popped value: " << top->data << endl;
+	top = top->next; //Update the top pointer to the next node
+
+}
