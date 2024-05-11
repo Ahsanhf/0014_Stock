@@ -18,3 +18,7 @@ class Stack {
 private:
 	top = NULL; //Intialize the stack with a null top pointer
 }
+public:
+Stack() {
+	top = NULL; //Intialize the stack with a null top pointer
+}
