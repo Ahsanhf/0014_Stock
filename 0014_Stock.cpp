@@ -42,3 +42,9 @@ void pop() {
 	top = top->next; //Update the top pointer to the next node
 
 }
+
+//Peek/Top operation: retrieve the value of the topmost element without removing it 
+void peek() {
+	if (top == NULL) {
+		cout << "List is empty." << endl;
+	}
