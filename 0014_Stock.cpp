@@ -29,3 +29,4 @@ int push(int value) {
 	newNode->data = value; //2.assign value
 	newNode->next = top; //3.Set the next pointer of the new node to the current top node
 	top = newNode; //4.Update the top pointer to the new node
+	cout << "Push value: " << value << endl;
